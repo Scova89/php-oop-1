@@ -5,6 +5,8 @@
     $spiderman->titolo = "Spider Man";
     $spiderman->regista = "Sam Raimi";
 
+    $spiderman->descrizioneFilm();
+
 
     var_dump($spiderman);
 
