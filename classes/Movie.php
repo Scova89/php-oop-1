@@ -1,5 +1,5 @@
 <?php
-    class Movie {}(
+    class Movie {
         
-    )
+    }
 ?>
