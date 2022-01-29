@@ -9,13 +9,25 @@
             }
             
         }
-
         public function getTitolo(){
             return $this->titolo;
         }
 
-        // public function descrizioneFilm(){
-        //     echo "{$this->titolo}". " di " ."{$this->regista}";
-        // }
+
+        public function setRegista($_regista){
+            if(strlen($_regista) > 4){
+                $this->regista=$_regista;
+            }
+            
+        }
+        public function getRegista(){
+            return $this->regista;
+        }
+
+
+
+        public function descrizioneFilm(){
+            return "{$this->titolo}". " di " ."{$this->regista}";
+        }
     }
 ?>

@@ -5,12 +5,14 @@
     // $spiderman->titolo = "Spider Man";
     // $spiderman->regista = "Sam Raimi";
 
-    // $spiderman->descrizioneFilm();
+    
 
     echo $spiderman->setTitolo("Spider Man");
-    echo $spiderman->getTitolo();
+    echo $spiderman->setRegista("Sam Raimi");
+    
+    echo $spiderman->descrizioneFilm();
 
-    var_dump($spiderman);
+    // var_dump($spiderman);
 
 
 
