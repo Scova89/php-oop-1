@@ -3,6 +3,13 @@
         private $titolo;
         private $regista;
 
+
+        public function __construct($_titolo)
+        {
+            $this->setTitolo($_titolo);
+        }
+
+
         public function setTitolo($_titolo){
             if(strlen($_titolo) > 4){
                 $this->titolo=$_titolo;
